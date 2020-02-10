@@ -1,6 +1,8 @@
 # Mini-OS
 This is a simulation of a program manages the run time of other programs on a single core CPU and 4 MiB RAM.
 
+## System
+This program is written in C leanguage. To run the program it is necesasy to have a compiler for C98-standart version.
 ## Introdution
 The Operation Systems runs at the same time more programs at the same time and it should manage the memory and run time on the CPU in such way that it all programs to finish. This software allocs the virtual memory for the programs that should be run and and decides what program should run at this moment of time based on the priority and PID.
 
