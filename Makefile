@@ -1,6 +1,6 @@
 build:
 	gcc -g *.c -Wall -Wextra -o tema2
 run: build
-	./tema2 test.txt test.out
+	./minios input.txt output.out
 rm :
-	rm tema2
+	rm minios
